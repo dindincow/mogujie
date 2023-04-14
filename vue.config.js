@@ -1,5 +1,6 @@
 // CSS配置相關: https://cli.vuejs.org/zh/guide/css.html
 module.exports = {
+  lintOnSave: false, // 排除组件命名未按照驼峰命名法的错误
   css: {
     loaderOptions: {
       scss: {
