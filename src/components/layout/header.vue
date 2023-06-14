@@ -1,9 +1,11 @@
 <template>
+  
   <header
     class="c-header"
     :class="{'c-header--fixed': fixed}">
     <slot></slot>
   </header>
+
 </template>
 <script>
 export default {
@@ -24,5 +26,5 @@ export default {
     width: 100%;
     z-index: 10;
   }
-}
+} 
 </style>

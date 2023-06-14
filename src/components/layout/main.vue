@@ -1,15 +1,15 @@
 <template>
-  <main class="c-content">
+  <main class="c-main">
     <slot></slot>
   </main>
 </template>
 <script>
 export default {
-  name: 'CContent'
+  name: 'CMain'
 }
 </script>
 <style lang="scss" scoped>
-@include b(c-content) {
+@include b(c-main) {
   overflow: auto;
   flex: 1;
 }

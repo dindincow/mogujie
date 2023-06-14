@@ -4,14 +4,18 @@ module.exports = {
   css: {
     loaderOptions: {
       scss: {
-        // 注意：在 sass-loader v8 中，这个选项名是 "prependData"
-        additionalData: `
+        // 注意：在 sass-loader v8 中，这个选项名是 "prependData",高版本 additionalData
+        prependData: `
           @import "@/style/settings/var.scss";
-          @import "@/style/theme/index.scss";
+          @import "@/style/theme/scss/index.scss";
           @import "@/style/tools/_sassMagic.scss";
           `
+      },
+      postcss: {
+        plugins: [
+          require('postcss-px2rem')({remUnit:35}),
+        ]
       }
-
     }
   }
 }

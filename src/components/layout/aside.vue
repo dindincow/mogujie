@@ -11,6 +11,6 @@ export default {
 <style lang="scss" scoped>
 @include b(c-aside) {
   overflow: auto;
-  flex-shrink: 0; // 保持固定值不隨意縮放
+  flex-shrink: 0;
 }
 </style>

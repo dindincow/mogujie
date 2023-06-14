@@ -14,10 +14,8 @@
     <c-footer>Footer</c-footer>
   </c-layout>
 </template>
-<script>
-export default {
+<script setup>
 
-}
 </script>
 <style lang="scss" scoped>
 

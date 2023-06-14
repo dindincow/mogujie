@@ -20,7 +20,7 @@ export default {
 @include b(c-layout) {
   display: flex;
   flex-direction: column;
-
+  
   @include m(horizontal) {
     flex-direction: row;
   }

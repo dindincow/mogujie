@@ -1,20 +1,16 @@
 /* Color
 ----------------------- */
-/* --- 主色調 --- */
 $color-primary: #FF5777;
 $color-white: #FFFFFF;
 $color-black: #000000;
 
-/* --- 文字 --- */
 $color-text-primary: #333333;
 $color-text-secondary: #666666;
 $color-text-tertiary: $color-white;
 $color-text-quaternary: $color-primary;
 
-/* --- 邊框 --- */
 $border-color-base: #E5E5E5;
 
-/* --- 背景 --- */
 $background-color-primary: #F1F1F1;
 $background-color-secondary: $color-white;
 $background-color-tertiary: $color-primary;
